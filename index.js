@@ -87,7 +87,7 @@ function sendMessage(auth) {
     // Makebody function is called to send the raw information.
     // Change to:sheikmagdhoom1500@gmail.com to TO mail Address
     // Change From:testmagdhoom@gmail.com to the FROM mail Address
-    var raw = makeBody('sheikmagdhoom1500@gmail.com', 'testmagdhoom@gmail.com', 'QuickworkAssessment', 'I am very happy to be a part of this assessment!!!');
+    var raw = makeBody('sheikmagdhoom1500@gmail.com', 'testmagdhoom@gmail.com', 'Assessment', 'I am very happy to be a part of this assessment!!!');
     const gmail = google.gmail({ version: 'v1', auth });
     gmail.users.messages.send({
         auth: auth,
