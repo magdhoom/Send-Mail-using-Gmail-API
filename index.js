@@ -40,7 +40,7 @@ function authorize(credentials, callback) {
  * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for.
  * @param {getEventsCallback} callback The callback for the authorized client.
  */
-// Generating new token is only for new FROM Mail Address for Accepting the SCOPES
+// Generating new token is only for new FROM Mail Address for Accepting the SCOPES.
 function getNewToken(oAuth2Client, callback) {
     const authUrl = oAuth2Client.generateAuthUrl({
         access_type: 'offline',
